@@ -57,7 +57,7 @@ kubeadm join 172.31.23.249:6443 --token vt02le.tynbqp89046y1br3 --discovery-toke
 ```
 - Allow inbound security group with port 6443
 
-- We need to install Network plugin CNI with following command
+- We need to install Network plugin weave CNI with following command
 ```bash
 kubectl apply -f https://github.com/weaveworks/weave/releases/download/v2.8.1/weave-daemonset-k8s.yaml
 ```
